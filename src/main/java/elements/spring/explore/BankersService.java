@@ -43,16 +43,19 @@ public class BankersService {
     }
 
     public String deleteOne(int id){
-        String information=listOne(id).get().getBankerName()+" has deleted";
+        String information=id+" has deleted";
         jdbcTemplate.update("delete from bankers where banker_id=?",new Object[]{id});
         return information;
     }
 
     public String updateOne(Bankers bankers){
         String information=bankers.getBankerId()+" has updated";
-        jdbcTemplate.update("update bankers set banker_name=?, banker_passcode=? where banker_id=?",
+        int ack=jdbcTemplate.update("update bankers set banker_name=?, banker_passcode=? where banker_id=?",
                 new Object[]{bankers.getBankerName(),bankers.getBankerPasscode(),bankers.getBankerId()});
-        return information;
+        if(ack!=0)
+            return information;
+        else
+            return bankers.getBankerId()+" hasn't updated";
     }
 
     public List<Bankers> readNames(String name){
