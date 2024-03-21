@@ -17,6 +17,11 @@ public class BankersController {
 
     private Logger logger= LoggerFactory.getLogger(BankersController.class);
 
+    @GetMapping("/stored/{employee}")
+    public ProcedureResponse stored(@PathVariable("employee") int employee){
+        return service.storedOne(employee);
+    }
+
     @DeleteMapping("/{id}")
     public String callDelete(@PathVariable("id") int id){
         logger.error("Controller about to delete record based on "+id);

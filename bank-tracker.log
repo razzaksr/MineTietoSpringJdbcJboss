@@ -1,83 +1,67 @@
-[31m2024-03-20 23:02:34,422[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mStarting SampleSpringJdbcApplication using Java 1.8.0_202 on SRDB with PID 11024 (D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc\target\classes started by SRDB in D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc)
-[0;39m[31m2024-03-20 23:02:34,422[0;39m [32m[DEBUG][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mRunning with Spring Boot v2.7.10, Spring v5.3.26
-[0;39m[31m2024-03-20 23:02:34,423[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mNo active profile set, falling back to 1 default profile: "default"
-[0;39m[31m2024-03-20 23:02:34,483[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.restart.ChangeableUrls restartedMain [32mThe Class-Path manifest attribute in C:\Users\ADMIN\.m2\repository\com\oracle\database\security\oraclepki\21.5.0.0\oraclepki-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/21.5.0.0/osdt_core.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/21.5.0.0/osdt_cert.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_cert.jar
-[0;39m[31m2024-03-20 23:02:34,484[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor restartedMain [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[0;39m[31m2024-03-20 23:02:34,485[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor restartedMain [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[0;39m[31m2024-03-20 23:02:35,250[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
-[0;39m[31m2024-03-20 23:02:35,264[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mFinished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
-[0;39m[31m2024-03-20 23:02:35,985[0;39m [32m[INFO][0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer restartedMain [32mTomcat initialized with port(s): 8082 (http)
-[0;39m[31m2024-03-20 23:02:35,996[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardService restartedMain [32mStarting service [Tomcat]
-[0;39m[31m2024-03-20 23:02:35,996[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardEngine restartedMain [32mStarting Servlet engine: [Apache Tomcat/9.0.73]
-[0;39m[31m2024-03-20 23:02:36,086[0;39m [32m[INFO][0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] restartedMain [32mInitializing Spring embedded WebApplicationContext
-[0;39m[31m2024-03-20 23:02:36,087[0;39m [32m[INFO][0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext restartedMain [32mRoot WebApplicationContext: initialization completed in 1601 ms
-[0;39m[31m2024-03-20 23:02:36,500[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource restartedMain [32mHikariPool-1 - Starting...
-[0;39m[31m2024-03-20 23:02:36,502[0;39m [32m[WARN][0;39m com.zaxxer.hikari.util.DriverDataSource restartedMain [32mRegistered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-[0;39m[31m2024-03-20 23:02:36,579[0;39m [32m[INFO][0;39m com.zaxxer.hikari.pool.PoolBase restartedMain [32mHikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
-[0;39m[31m2024-03-20 23:02:36,581[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource restartedMain [32mHikariPool-1 - Start completed.
-[0;39m[31m2024-03-20 23:02:36,816[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer restartedMain [32mLiveReload server is running on port 35729
-[0;39m[31m2024-03-20 23:02:36,840[0;39m [32m[INFO][0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer restartedMain [32mTomcat started on port(s): 8082 (http) with context path ''
-[0;39m[31m2024-03-20 23:02:36,848[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mStarted SampleSpringJdbcApplication in 2.924 seconds (JVM running for 4.355)
-[0;39m[31m2024-03-20 23:02:45,347[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener File Watcher [32mRestarting due to 7 class path changes (0 additions, 6 deletions, 1 modification)
-[0;39m[31m2024-03-20 23:02:45,482[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardService Thread-12 [32mStopping service [Tomcat]
-[0;39m[31m2024-03-20 23:02:45,507[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource Thread-12 [32mHikariPool-1 - Shutdown initiated...
-[0;39m[31m2024-03-20 23:02:45,513[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource Thread-12 [32mHikariPool-1 - Shutdown completed.
-[0;39m[31m2024-03-20 23:02:45,651[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mStarting SampleSpringJdbcApplication using Java 1.8.0_202 on SRDB with PID 11024 (D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc\target\classes started by SRDB in D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc)
-[0;39m[31m2024-03-20 23:02:45,652[0;39m [32m[DEBUG][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mRunning with Spring Boot v2.7.10, Spring v5.3.26
-[0;39m[31m2024-03-20 23:02:45,652[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mNo active profile set, falling back to 1 default profile: "default"
-[0;39m[31m2024-03-20 23:02:45,780[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
-[0;39m[31m2024-03-20 23:02:45,781[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mFinished Spring Data repository scanning in 0 ms. Found 0 JDBC repository interfaces.
-[0;39m[31m2024-03-20 23:02:45,847[0;39m [32m[INFO][0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer restartedMain [32mTomcat initialized with port(s): 8082 (http)
-[0;39m[31m2024-03-20 23:02:45,847[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardService restartedMain [32mStarting service [Tomcat]
-[0;39m[31m2024-03-20 23:02:45,847[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardEngine restartedMain [32mStarting Servlet engine: [Apache Tomcat/9.0.73]
-[0;39m[31m2024-03-20 23:02:45,866[0;39m [32m[INFO][0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] restartedMain [32mInitializing Spring embedded WebApplicationContext
-[0;39m[31m2024-03-20 23:02:45,866[0;39m [32m[INFO][0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext restartedMain [32mRoot WebApplicationContext: initialization completed in 212 ms
-[0;39m[31m2024-03-20 23:02:46,009[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource restartedMain [32mHikariPool-2 - Starting...
-[0;39m[31m2024-03-20 23:02:46,009[0;39m [32m[WARN][0;39m com.zaxxer.hikari.util.DriverDataSource restartedMain [32mRegistered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-[0;39m[31m2024-03-20 23:02:46,023[0;39m [32m[INFO][0;39m com.zaxxer.hikari.pool.PoolBase restartedMain [32mHikariPool-2 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
-[0;39m[31m2024-03-20 23:02:46,024[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource restartedMain [32mHikariPool-2 - Start completed.
-[0;39m[31m2024-03-20 23:02:46,045[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer restartedMain [32mLiveReload server is running on port 35729
-[0;39m[31m2024-03-20 23:02:46,058[0;39m [32m[INFO][0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer restartedMain [32mTomcat started on port(s): 8082 (http) with context path ''
-[0;39m[31m2024-03-20 23:02:46,064[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mStarted SampleSpringJdbcApplication in 0.437 seconds (JVM running for 13.572)
-[0;39m[31m2024-03-20 23:02:46,067[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener restartedMain [32mCondition evaluation unchanged
-[0;39m[31m2024-03-20 23:02:47,905[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener File Watcher [32mRestarting due to 6 class path changes (6 additions, 0 deletions, 0 modifications)
-[0;39m[31m2024-03-20 23:02:48,451[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardService Thread-18 [32mStopping service [Tomcat]
-[0;39m[31m2024-03-20 23:02:48,465[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource Thread-18 [32mHikariPool-2 - Shutdown initiated...
-[0;39m[31m2024-03-20 23:02:48,484[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource Thread-18 [32mHikariPool-2 - Shutdown completed.
-[0;39m[31m2024-03-20 23:02:48,686[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mStarting SampleSpringJdbcApplication using Java 1.8.0_202 on SRDB with PID 11024 (D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc\target\classes started by SRDB in D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc)
-[0;39m[31m2024-03-20 23:02:48,687[0;39m [32m[DEBUG][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mRunning with Spring Boot v2.7.10, Spring v5.3.26
-[0;39m[31m2024-03-20 23:02:48,687[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mNo active profile set, falling back to 1 default profile: "default"
-[0;39m[31m2024-03-20 23:02:48,848[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
-[0;39m[31m2024-03-20 23:02:48,851[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mFinished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-[0;39m[31m2024-03-20 23:02:48,955[0;39m [32m[INFO][0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer restartedMain [32mTomcat initialized with port(s): 8082 (http)
-[0;39m[31m2024-03-20 23:02:48,956[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardService restartedMain [32mStarting service [Tomcat]
-[0;39m[31m2024-03-20 23:02:48,956[0;39m [32m[INFO][0;39m org.apache.catalina.core.StandardEngine restartedMain [32mStarting Servlet engine: [Apache Tomcat/9.0.73]
-[0;39m[31m2024-03-20 23:02:48,974[0;39m [32m[INFO][0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] restartedMain [32mInitializing Spring embedded WebApplicationContext
-[0;39m[31m2024-03-20 23:02:48,975[0;39m [32m[INFO][0;39m org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext restartedMain [32mRoot WebApplicationContext: initialization completed in 285 ms
-[0;39m[31m2024-03-20 23:02:49,113[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource restartedMain [32mHikariPool-3 - Starting...
-[0;39m[31m2024-03-20 23:02:49,114[0;39m [32m[WARN][0;39m com.zaxxer.hikari.util.DriverDataSource restartedMain [32mRegistered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-[0;39m[31m2024-03-20 23:02:49,128[0;39m [32m[INFO][0;39m com.zaxxer.hikari.pool.PoolBase restartedMain [32mHikariPool-3 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
-[0;39m[31m2024-03-20 23:02:49,130[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource restartedMain [32mHikariPool-3 - Start completed.
-[0;39m[31m2024-03-20 23:02:49,147[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer restartedMain [32mLiveReload server is running on port 35729
-[0;39m[31m2024-03-20 23:02:49,158[0;39m [32m[INFO][0;39m org.springframework.boot.web.embedded.tomcat.TomcatWebServer restartedMain [32mTomcat started on port(s): 8082 (http) with context path ''
-[0;39m[31m2024-03-20 23:02:49,164[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mStarted SampleSpringJdbcApplication in 0.518 seconds (JVM running for 16.671)
-[0;39m[31m2024-03-20 23:02:49,165[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener restartedMain [32mCondition evaluation unchanged
-[0;39m[31m2024-03-20 23:03:08,783[0;39m [32m[INFO][0;39m org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] http-nio-8082-exec-1 [32mInitializing Spring DispatcherServlet 'dispatcherServlet'
-[0;39m[31m2024-03-20 23:03:08,784[0;39m [32m[INFO][0;39m org.springframework.web.servlet.DispatcherServlet http-nio-8082-exec-1 [32mInitializing Servlet 'dispatcherServlet'
-[0;39m[31m2024-03-20 23:03:08,786[0;39m [32m[INFO][0;39m org.springframework.web.servlet.DispatcherServlet http-nio-8082-exec-1 [32mCompleted initialization in 2 ms
-[0;39m[31m2024-03-20 23:03:21,674[0;39m [32m[INFO][0;39m elements.spring.explore.BankersController http-nio-8082-exec-4 [32mController about print All the records
-[0;39m[31m2024-03-20 23:03:28,456[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource SpringApplicationShutdownHook [32mHikariPool-3 - Shutdown initiated...
-[0;39m[31m2024-03-20 23:03:28,464[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource SpringApplicationShutdownHook [32mHikariPool-3 - Shutdown completed.
-[0;39m[31m2024-03-20 23:06:14,163[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplicationTests main [32mStarting SampleSpringJdbcApplicationTests using Java 1.8.0_202 on SRDB with PID 12224 (started by SRDB in D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc)
-[0;39m[31m2024-03-20 23:06:14,165[0;39m [32m[DEBUG][0;39m elements.spring.explore.SampleSpringJdbcApplicationTests main [32mRunning with Spring Boot v2.7.10, Spring v5.3.26
-[0;39m[31m2024-03-20 23:06:14,166[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplicationTests main [32mNo active profile set, falling back to 1 default profile: "default"
-[0;39m[31m2024-03-20 23:06:15,003[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate main [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
-[0;39m[31m2024-03-20 23:06:15,018[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate main [32mFinished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
-[0;39m[31m2024-03-20 23:06:17,034[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource main [32mHikariPool-1 - Starting...
-[0;39m[31m2024-03-20 23:06:17,042[0;39m [32m[WARN][0;39m com.zaxxer.hikari.util.DriverDataSource main [32mRegistered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-[0;39m[31m2024-03-20 23:06:17,593[0;39m [32m[INFO][0;39m com.zaxxer.hikari.pool.PoolBase main [32mHikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
-[0;39m[31m2024-03-20 23:06:17,599[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource main [32mHikariPool-1 - Start completed.
-[0;39m[31m2024-03-20 23:06:17,992[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplicationTests main [32mStarted SampleSpringJdbcApplicationTests in 4.316 seconds (JVM running for 5.502)
-[0;39m[31m2024-03-20 23:06:18,404[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource SpringApplicationShutdownHook [32mHikariPool-1 - Shutdown initiated...
-[0;39m[31m2024-03-20 23:06:18,429[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource SpringApplicationShutdownHook [32mHikariPool-1 - Shutdown completed.
+[31m2024-03-21 07:04:01,028[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mStarting SampleSpringJdbcApplication using Java 1.8.0_202 on SRDB with PID 196 (D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc\target\classes started by SRDB in D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc)
+[0;39m[31m2024-03-21 07:04:01,033[0;39m [32m[DEBUG][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mRunning with Spring Boot v2.7.10, Spring v5.3.26
+[0;39m[31m2024-03-21 07:04:01,034[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mNo active profile set, falling back to 1 default profile: "default"
+[0;39m[31m2024-03-21 07:04:01,101[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.restart.ChangeableUrls restartedMain [32mThe Class-Path manifest attribute in C:\Users\ADMIN\.m2\repository\com\oracle\database\security\oraclepki\21.5.0.0\oraclepki-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/21.5.0.0/osdt_core.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/21.5.0.0/osdt_cert.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_cert.jar
+[0;39m[31m2024-03-21 07:04:01,102[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor restartedMain [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[31m2024-03-21 07:04:01,102[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor restartedMain [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[31m2024-03-21 07:04:01,818[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[31m2024-03-21 07:04:01,829[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mFinished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+[0;39m[31m2024-03-21 07:04:02,056[0;39m [32m[WARN][0;39m org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext restartedMain [32mException encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.context.MissingWebServerFactoryBeanException: No qualifying bean of type 'org.springframework.boot.web.servlet.server.ServletWebServerFactory' available: Unable to start AnnotationConfigServletWebServerApplicationContext due to missing ServletWebServerFactory bean
+[0;39m[31m2024-03-21 07:04:02,064[0;39m [32m[INFO][0;39m org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener restartedMain [32m
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m[31m2024-03-21 07:04:02,081[0;39m [32m[ERROR][0;39m org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter restartedMain [32m
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web application could not be started as there was no org.springframework.boot.web.servlet.server.ServletWebServerFactory bean defined in the context.
+
+Action:
+
+Check your application's dependencies for a supported servlet web server.
+Check the configured web application type.
+
+[0;39m[31m2024-03-21 07:04:27,063[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mStarting SampleSpringJdbcApplication using Java 1.8.0_202 on SRDB with PID 9720 (D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc\target\classes started by SRDB in D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc)
+[0;39m[31m2024-03-21 07:04:27,064[0;39m [32m[DEBUG][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mRunning with Spring Boot v2.7.10, Spring v5.3.26
+[0;39m[31m2024-03-21 07:04:27,065[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplication restartedMain [32mNo active profile set, falling back to 1 default profile: "default"
+[0;39m[31m2024-03-21 07:04:27,116[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.restart.ChangeableUrls restartedMain [32mThe Class-Path manifest attribute in C:\Users\ADMIN\.m2\repository\com\oracle\database\security\oraclepki\21.5.0.0\oraclepki-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/21.5.0.0/osdt_core.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/21.5.0.0/osdt_cert.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/ADMIN/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_cert.jar
+[0;39m[31m2024-03-21 07:04:27,116[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor restartedMain [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[31m2024-03-21 07:04:27,117[0;39m [32m[INFO][0;39m org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor restartedMain [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[31m2024-03-21 07:04:27,732[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[31m2024-03-21 07:04:27,744[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate restartedMain [32mFinished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+[0;39m[31m2024-03-21 07:04:28,074[0;39m [32m[WARN][0;39m org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext restartedMain [32mException encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.context.MissingWebServerFactoryBeanException: No qualifying bean of type 'org.springframework.boot.web.servlet.server.ServletWebServerFactory' available: Unable to start AnnotationConfigServletWebServerApplicationContext due to missing ServletWebServerFactory bean
+[0;39m[31m2024-03-21 07:04:28,086[0;39m [32m[INFO][0;39m org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener restartedMain [32m
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[0;39m[31m2024-03-21 07:04:28,102[0;39m [32m[ERROR][0;39m org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter restartedMain [32m
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web application could not be started as there was no org.springframework.boot.web.servlet.server.ServletWebServerFactory bean defined in the context.
+
+Action:
+
+Check your application's dependencies for a supported servlet web server.
+Check the configured web application type.
+
+[0;39m[31m2024-03-21 20:05:57,769[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplicationTests main [32mStarting SampleSpringJdbcApplicationTests using Java 1.8.0_202 on SRDB with PID 18248 (started by SRDB in D:\Course backups\Java\DLithe2024Feb-Corporate-TietoEvry\sample-spring-jdbc)
+[0;39m[31m2024-03-21 20:05:57,770[0;39m [32m[DEBUG][0;39m elements.spring.explore.SampleSpringJdbcApplicationTests main [32mRunning with Spring Boot v2.7.10, Spring v5.3.26
+[0;39m[31m2024-03-21 20:05:57,772[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplicationTests main [32mNo active profile set, falling back to 1 default profile: "default"
+[0;39m[31m2024-03-21 20:05:58,992[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate main [32mBootstrapping Spring Data JDBC repositories in DEFAULT mode.
+[0;39m[31m2024-03-21 20:05:59,010[0;39m [32m[INFO][0;39m org.springframework.data.repository.config.RepositoryConfigurationDelegate main [32mFinished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+[0;39m[31m2024-03-21 20:06:01,107[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource main [32mHikariPool-1 - Starting...
+[0;39m[31m2024-03-21 20:06:01,115[0;39m [32m[WARN][0;39m com.zaxxer.hikari.util.DriverDataSource main [32mRegistered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[0;39m[31m2024-03-21 20:06:01,800[0;39m [32m[INFO][0;39m com.zaxxer.hikari.pool.PoolBase main [32mHikariPool-1 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+[0;39m[31m2024-03-21 20:06:01,807[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource main [32mHikariPool-1 - Start completed.
+[0;39m[31m2024-03-21 20:06:02,317[0;39m [32m[INFO][0;39m elements.spring.explore.SampleSpringJdbcApplicationTests main [32mStarted SampleSpringJdbcApplicationTests in 5.941 seconds (JVM running for 7.547)
+[0;39m[31m2024-03-21 20:06:02,961[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource SpringApplicationShutdownHook [32mHikariPool-1 - Shutdown initiated...
+[0;39m[31m2024-03-21 20:06:02,985[0;39m [32m[INFO][0;39m com.zaxxer.hikari.HikariDataSource SpringApplicationShutdownHook [32mHikariPool-1 - Shutdown completed.
 [0;39m
