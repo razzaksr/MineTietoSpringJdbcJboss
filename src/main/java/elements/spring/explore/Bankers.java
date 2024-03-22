@@ -4,6 +4,15 @@ public class Bankers {
     private int bankerId;
     private String bankerName;
 
+    public Bankers() {
+    }
+
+    public Bankers(int bankerId, String bankerName, String bankerPasscode) {
+        this.bankerId = bankerId;
+        this.bankerName = bankerName;
+        this.bankerPasscode = bankerPasscode;
+    }
+
     public int getBankerId() {
         return bankerId;
     }
