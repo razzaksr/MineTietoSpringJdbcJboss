@@ -1,0 +1,12 @@
+GET http://localhost:8082/template/
+Authorization: Basic razak:mohamed
+
+###
+
+GET http://localhost:8082/logout
+
+###
+
+GET http://localhost:8082/template/byname/razzaksr
+Authorization: Basic razak:mohamed
+
